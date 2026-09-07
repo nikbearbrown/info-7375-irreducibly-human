@@ -1,0 +1,257 @@
+{
+  "course": "INFO 7375",
+  "title": "Irreducibly Human",
+  "term": "fall-2026",
+  "pedagogy": [
+    "Predict",
+    "Build It",
+    "Use It",
+    "Ship It",
+    "Verify"
+  ],
+  "language": "Python",
+  "provider": "Claude",
+  "assessments": "ungraded",
+  "assignment_interval_days": 10,
+  "points": {
+    "implementation": 60,
+    "frictional": 10,
+    "github": 10,
+    "relative_quartile": 20
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Classify the task, then test the boundary",
+      "path": "lessons/01-task-and-tier/README.md",
+      "reading": "chapters/00-introduction.md",
+      "selection": "The Concept Running Through the Book",
+      "ai_should": "organize task records and propose alternative classifications",
+      "human_should": "make the initial task decomposition, justify the boundary, and own the delegation decision"
+    },
+    {
+      "lesson": 2,
+      "title": "Measure when assistance helps",
+      "path": "lessons/02-pattern-baselines/README.md",
+      "reading": "chapters/01-tier-1-pattern-and-association.md",
+      "selection": "When human involvement turns net-negative",
+      "ai_should": "suggest candidate rules and calculate comparisons",
+      "human_should": "choose the test, justify each override, and interpret the bounded result"
+    },
+    {
+      "lesson": 3,
+      "title": "Keep the knowledge needed to check",
+      "path": "lessons/03-offloading-and-learning/README.md",
+      "reading": "chapters/01-tier-1-pattern-and-association.md",
+      "selection": "The baseline-knowledge condition: you cannot audit what you do not know",
+      "ai_should": "explain syntax, give hints, and check calculations after the attempt",
+      "human_should": "attempt the mechanism, explain the transfer case, and report actual learning"
+    },
+    {
+      "lesson": 4,
+      "title": "A description is not a physical measurement",
+      "path": "lessons/04-embodied-feedback/README.md",
+      "reading": "chapters/02-tier-2-embodied-and-sensorimotor.md",
+      "selection": "How embodied skill is actually taught",
+      "ai_should": "draft a procedure and organize observations",
+      "human_should": "perform or accurately label the observation task, notice feedback, and decide adjustments"
+    },
+    {
+      "lesson": 5,
+      "title": "Evaluate helpful language without inventing a relationship",
+      "path": "lessons/05-social-language/README.md",
+      "reading": "chapters/03-tier-3-social-and-personal.md",
+      "selection": "The performance is real; that is the trap",
+      "ai_should": "draft alternative wording and flag unsupported claims",
+      "human_should": "decide what is appropriate in context and avoid attributing feelings or commitments without evidence"
+    },
+    {
+      "lesson": 6,
+      "title": "Design a handoff to a real person",
+      "path": "lessons/06-relationships-and-boundaries/README.md",
+      "reading": "chapters/03-tier-3-social-and-personal.md",
+      "selection": "How social intelligence is actually built — and how it is unbuilt",
+      "ai_should": "prepare the handoff packet and identify missing information",
+      "human_should": "conduct any real interaction, secure actual permission when needed, and own commitments"
+    },
+    {
+      "lesson": 7,
+      "title": "Check confidence against outcomes",
+      "path": "lessons/07-confidence-and-calibration/README.md",
+      "reading": "chapters/04-tier-4-metacognitive-and-supervisory.md",
+      "selection": "How metacognition is taught — and the transfer that never happens",
+      "ai_should": "compute scores and propose error patterns",
+      "human_should": "record original confidence, verify labels, and interpret uncertainty"
+    },
+    {
+      "lesson": 8,
+      "title": "Evaluate the checker",
+      "path": "lessons/08-supervisory-checks/README.md",
+      "reading": "chapters/04-tier-4-metacognitive-and-supervisory.md",
+      "selection": "Plausibility auditing: the named skill no curriculum teaches",
+      "ai_should": "propose checks and organize citations",
+      "human_should": "choose the check, inspect support, and evaluate the evaluator"
+    },
+    {
+      "lesson": 9,
+      "title": "Separate prediction from an intervention",
+      "path": "lessons/09-causal-questions/README.md",
+      "reading": "chapters/05-tier-5-causal-and-counterfactual.md",
+      "selection": "Pearl's ladder, and the rung the machine lives on",
+      "ai_should": "implement the supplied equations and compare outputs",
+      "human_should": "state and defend the causal assumptions and scope"
+    },
+    {
+      "lesson": 10,
+      "title": "Ask what would change under a different action",
+      "path": "lessons/10-counterfactual-design/README.md",
+      "reading": "chapters/05-tier-5-causal-and-counterfactual.md",
+      "selection": "How the field teaches causation — and the error the teaching produces",
+      "ai_should": "enumerate model consequences and design alternatives",
+      "human_should": "choose defensible assumptions and distinguish proposed studies from evidence"
+    },
+    {
+      "lesson": 11,
+      "title": "Compare many judgments with one repeated judgment",
+      "path": "lessons/11-independence-and-aggregation/README.md",
+      "reading": "chapters/06-tier-6-collective-and-distributed.md",
+      "selection": "What makes a group smart — and the friction the machine throws away",
+      "ai_should": "simulate and compute aggregation results",
+      "human_should": "specify dependence assumptions and judge relevance to the actual team"
+    },
+    {
+      "lesson": 12,
+      "title": "Preserve disagreement before summarizing",
+      "path": "lessons/12-deliberation-and-dissent/README.md",
+      "reading": "chapters/06-tier-6-collective-and-distributed.md",
+      "selection": "What the machine compresses, and what it cannot",
+      "ai_should": "organize positions and propose a traceable summary",
+      "human_should": "contribute an independent view, deliberate with actual peers when available, and resolve or preserve disagreement"
+    },
+    {
+      "lesson": 13,
+      "title": "An efficient answer still needs an end worth choosing",
+      "path": "lessons/13-values-and-judgment/README.md",
+      "reading": "chapters/07-tier-7-existential-and-wisdom.md",
+      "selection": "Wisdom is not the top of the knowledge hierarchy",
+      "ai_should": "calculate scenarios and articulate alternative considerations",
+      "human_should": "justify the objective, consider affected interests, and own the bounded recommendation"
+    },
+    {
+      "lesson": 14,
+      "title": "Exposure is a measurement claim",
+      "path": "lessons/14-exposure-and-evidence/README.md",
+      "reading": "chapters/08-conclusion.md",
+      "selection": "Deprioritization is not deletion — at full stakes",
+      "ai_should": "compute and compare clearly labeled hypothetical indices",
+      "human_should": "justify the construct, inspect coverage, and avoid claiming unratified research findings"
+    },
+    {
+      "lesson": 15,
+      "title": "Build and defend the division of labor",
+      "path": "lessons/15-division-of-labor-capstone/README.md",
+      "reading": "chapters/08-conclusion.md",
+      "selection": "The recursive capstone",
+      "ai_should": "draft, compute, implement, and challenge the candidate",
+      "human_should": "practice the mechanism, verify the evidence, maintain actual relationships, and own the final handoff"
+    }
+  ],
+  "assignments": [
+    {
+      "assignment": 1,
+      "title": "Task boundaries and pattern baselines",
+      "lessons": [
+        1,
+        2
+      ],
+      "path": "assignments/fall-2026/assignment-01.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 2,
+      "title": "Offloading and retained understanding",
+      "lessons": [
+        3
+      ],
+      "path": "assignments/fall-2026/assignment-02.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 3,
+      "title": "Embodied feedback",
+      "lessons": [
+        4
+      ],
+      "path": "assignments/fall-2026/assignment-03.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 4,
+      "title": "Social language and human handoffs",
+      "lessons": [
+        5,
+        6
+      ],
+      "path": "assignments/fall-2026/assignment-04.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 5,
+      "title": "Calibration and checking the checker",
+      "lessons": [
+        7,
+        8
+      ],
+      "path": "assignments/fall-2026/assignment-05.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 6,
+      "title": "Causal and counterfactual reasoning",
+      "lessons": [
+        9,
+        10
+      ],
+      "path": "assignments/fall-2026/assignment-06.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 7,
+      "title": "Collective judgment and dissent",
+      "lessons": [
+        11,
+        12
+      ],
+      "path": "assignments/fall-2026/assignment-07.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 8,
+      "title": "Values and sensitivity",
+      "lessons": [
+        13
+      ],
+      "path": "assignments/fall-2026/assignment-08.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 9,
+      "title": "Exposure-index audit",
+      "lessons": [
+        14
+      ],
+      "path": "assignments/fall-2026/assignment-09.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 10,
+      "title": "Division-of-labor capstone",
+      "lessons": [
+        15
+      ],
+      "path": "assignments/fall-2026/assignment-10.md",
+      "due": "Canvas"
+    }
+  ]
+}
+
